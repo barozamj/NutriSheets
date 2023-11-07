@@ -1,0 +1,30 @@
+[
+    {
+        "Date": "2023-11-06",
+        "Time": "21:51:56",
+        "Food Items": {
+            "Wheat Bread": 100
+        },
+        "Total Calories": 300,
+        "Total Cost": 0.5
+    },
+    {
+        "Date": "2023-11-06",
+        "Time": "21:52:04",
+        "Food Items": {
+            "Peanut Butter": 100
+        },
+        "Total Calories": 594,
+        "Total Cost": 0.99
+    },
+    {
+        "Date": "2023-11-06",
+        "Time": "22:04:36",
+        "Food Items": {
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 430,
+        "Total Cost": 0.72
+    }
+]

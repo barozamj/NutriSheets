@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Wheat Bread",
+        "calories": 120,
+        "grams_per_serving": 40.0,
+        "net_weight": 800.0,
+        "cost": 3.99
+    },
+    {
+        "name": "Peanut Butter",
+        "calories": 190,
+        "grams_per_serving": 32.0,
+        "net_weight": 454.0,
+        "cost": 4.49
+    }
+]
