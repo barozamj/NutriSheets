@@ -1,6 +1,6 @@
 [
     {
-        "Date": "2023-11-06",
+        "Date": "2022-11-14",
         "Time": "21:51:56",
         "Food Items": {
             "Wheat Bread": 100
@@ -9,7 +9,7 @@
         "Total Cost": 0.5
     },
     {
-        "Date": "2023-11-06",
+        "Date": "2023-09-15",
         "Time": "21:52:04",
         "Food Items": {
             "Peanut Butter": 100
@@ -18,7 +18,7 @@
         "Total Cost": 0.99
     },
     {
-        "Date": "2023-11-06",
+        "Date": "2023-09-16",
         "Time": "22:04:36",
         "Food Items": {
             "Wheat Bread": 80,
@@ -26,5 +26,581 @@
         },
         "Total Calories": 430,
         "Total Cost": 0.72
+    },
+    {
+        "Date": "2023-09-17",
+        "Time": "23:47:41",
+        "Food Items": {
+            "Hersheys Dark Chocolate": 100,
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 892,
+        "Total Cost": 2.3
+    },
+    {
+        "Date": "2023-09-18",
+        "Time": "21:13:43",
+        "Food Items": {
+            "El Monterey Bean & Cheese Burritos": 226,
+            "Ore-Ida Tater Tots": 226
+        },
+        "Total Calories": 742,
+        "Total Cost": 2.74
+    },
+    {
+        "Date": "2023-09-19",
+        "Time": "21:14:31",
+        "Food Items": {
+            "Fried Rice": 510
+        },
+        "Total Calories": 750,
+        "Total Cost": 4.99
+    },
+    {
+        "Date": "2023-09-20",
+        "Time": "21:14:57",
+        "Food Items": {
+            "Maruchan Soy Flavored Ramen": 86
+        },
+        "Total Calories": 370,
+        "Total Cost": 0.63
+    },
+    {
+        "Date": "2023-09-21",
+        "Time": "21:17:33",
+        "Food Items": {
+            "Kroger Graham Crackers": 93
+        },
+        "Total Calories": 390,
+        "Total Cost": 0.69
+    },
+    {
+        "Date": "2023-09-22",
+        "Time": "21:18:00",
+        "Food Items": {
+            "Sunflower Butter Pretzel Bites": 120
+        },
+        "Total Calories": 600,
+        "Total Cost": 1.04
+    },
+    {
+        "Date": "2023-09-23",
+        "Time": "21:51:56",
+        "Food Items": {
+            "Wheat Bread": 100
+        },
+        "Total Calories": 300,
+        "Total Cost": 0.5
+    },
+    {
+        "Date": "2023-09-24",
+        "Time": "21:52:04",
+        "Food Items": {
+            "Peanut Butter": 100
+        },
+        "Total Calories": 594,
+        "Total Cost": 0.99
+    },
+    {
+        "Date": "2023-09-25",
+        "Time": "22:04:36",
+        "Food Items": {
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 430,
+        "Total Cost": 0.72
+    },
+    {
+        "Date": "2023-09-26",
+        "Time": "23:47:41",
+        "Food Items": {
+            "Hersheys Dark Chocolate": 100,
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 892,
+        "Total Cost": 2.3
+    },
+    {
+        "Date": "2023-09-27",
+        "Time": "21:13:43",
+        "Food Items": {
+            "El Monterey Bean & Cheese Burritos": 226,
+            "Ore-Ida Tater Tots": 226
+        },
+        "Total Calories": 742,
+        "Total Cost": 2.74
+    },
+    {
+        "Date": "2023-09-28",
+        "Time": "21:14:31",
+        "Food Items": {
+            "Fried Rice": 510
+        },
+        "Total Calories": 750,
+        "Total Cost": 4.99
+    },
+    {
+        "Date": "2023-09-29",
+        "Time": "21:14:57",
+        "Food Items": {
+            "Maruchan Soy Flavored Ramen": 86
+        },
+        "Total Calories": 370,
+        "Total Cost": 0.63
+    },
+    {
+        "Date": "2023-09-30",
+        "Time": "21:17:33",
+        "Food Items": {
+            "Kroger Graham Crackers": 93
+        },
+        "Total Calories": 390,
+        "Total Cost": 0.69
+    },
+    {
+        "Date": "2023-10-01",
+        "Time": "21:18:00",
+        "Food Items": {
+            "Sunflower Butter Pretzel Bites": 120
+        },
+        "Total Calories": 600,
+        "Total Cost": 1.04
+    },
+    {
+        "Date": "2023-10-02",
+        "Time": "21:51:56",
+        "Food Items": {
+            "Wheat Bread": 100
+        },
+        "Total Calories": 300,
+        "Total Cost": 0.5
+    },
+    {
+        "Date": "2023-10-03",
+        "Time": "21:52:04",
+        "Food Items": {
+            "Peanut Butter": 100
+        },
+        "Total Calories": 594,
+        "Total Cost": 0.99
+    },
+    {
+        "Date": "2023-10-04",
+        "Time": "22:04:36",
+        "Food Items": {
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 430,
+        "Total Cost": 0.72
+    },
+    {
+        "Date": "2023-10-05",
+        "Time": "23:47:41",
+        "Food Items": {
+            "Hersheys Dark Chocolate": 100,
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 892,
+        "Total Cost": 2.3
+    },
+    {
+        "Date": "2023-10-06",
+        "Time": "21:13:43",
+        "Food Items": {
+            "El Monterey Bean & Cheese Burritos": 226,
+            "Ore-Ida Tater Tots": 226
+        },
+        "Total Calories": 742,
+        "Total Cost": 2.74
+    },
+    {
+        "Date": "2023-10-07",
+        "Time": "21:14:31",
+        "Food Items": {
+            "Fried Rice": 510
+        },
+        "Total Calories": 750,
+        "Total Cost": 4.99
+    },
+    {
+        "Date": "2023-10-08",
+        "Time": "21:14:57",
+        "Food Items": {
+            "Maruchan Soy Flavored Ramen": 86
+        },
+        "Total Calories": 370,
+        "Total Cost": 0.63
+    },
+    {
+        "Date": "2023-10-09",
+        "Time": "21:17:33",
+        "Food Items": {
+            "Kroger Graham Crackers": 93
+        },
+        "Total Calories": 390,
+        "Total Cost": 0.69
+    },
+    {
+        "Date": "2023-10-10",
+        "Time": "21:18:00",
+        "Food Items": {
+            "Sunflower Butter Pretzel Bites": 120
+        },
+        "Total Calories": 600,
+        "Total Cost": 1.04
+    },
+    {
+        "Date": "2023-10-11",
+        "Time": "21:51:56",
+        "Food Items": {
+            "Wheat Bread": 100
+        },
+        "Total Calories": 300,
+        "Total Cost": 0.5
+    },
+    {
+        "Date": "2023-10-12",
+        "Time": "21:52:04",
+        "Food Items": {
+            "Peanut Butter": 100
+        },
+        "Total Calories": 594,
+        "Total Cost": 0.99
+    },
+    {
+        "Date": "2023-10-13",
+        "Time": "22:04:36",
+        "Food Items": {
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 430,
+        "Total Cost": 0.72
+    },
+    {
+        "Date": "2023-10-14",
+        "Time": "23:47:41",
+        "Food Items": {
+            "Hersheys Dark Chocolate": 100,
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 892,
+        "Total Cost": 2.3
+    },
+    {
+        "Date": "2023-10-15",
+        "Time": "21:13:43",
+        "Food Items": {
+            "El Monterey Bean & Cheese Burritos": 226,
+            "Ore-Ida Tater Tots": 226
+        },
+        "Total Calories": 742,
+        "Total Cost": 2.74
+    },
+    {
+        "Date": "2023-10-16",
+        "Time": "21:14:31",
+        "Food Items": {
+            "Fried Rice": 510
+        },
+        "Total Calories": 750,
+        "Total Cost": 4.99
+    },
+    {
+        "Date": "2023-10-17",
+        "Time": "21:14:57",
+        "Food Items": {
+            "Maruchan Soy Flavored Ramen": 86
+        },
+        "Total Calories": 370,
+        "Total Cost": 0.63
+    },
+    {
+        "Date": "2023-10-18",
+        "Time": "21:17:33",
+        "Food Items": {
+            "Kroger Graham Crackers": 93
+        },
+        "Total Calories": 390,
+        "Total Cost": 0.69
+    },
+    {
+        "Date": "2023-10-19",
+        "Time": "21:18:00",
+        "Food Items": {
+            "Sunflower Butter Pretzel Bites": 120
+        },
+        "Total Calories": 600,
+        "Total Cost": 1.04
+    },
+    {
+        "Date": "2023-10-20",
+        "Time": "21:51:56",
+        "Food Items": {
+            "Wheat Bread": 100
+        },
+        "Total Calories": 300,
+        "Total Cost": 0.5
+    },
+    {
+        "Date": "2023-10-21",
+        "Time": "21:52:04",
+        "Food Items": {
+            "Peanut Butter": 100
+        },
+        "Total Calories": 594,
+        "Total Cost": 0.99
+    },
+    {
+        "Date": "2023-10-22",
+        "Time": "22:04:36",
+        "Food Items": {
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 430,
+        "Total Cost": 0.72
+    },
+    {
+        "Date": "2023-10-23",
+        "Time": "23:47:41",
+        "Food Items": {
+            "Hersheys Dark Chocolate": 100,
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 892,
+        "Total Cost": 2.3
+    },
+    {
+        "Date": "2023-10-24",
+        "Time": "21:13:43",
+        "Food Items": {
+            "El Monterey Bean & Cheese Burritos": 226,
+            "Ore-Ida Tater Tots": 226
+        },
+        "Total Calories": 742,
+        "Total Cost": 2.74
+    },
+    {
+        "Date": "2023-10-25",
+        "Time": "21:14:31",
+        "Food Items": {
+            "Fried Rice": 510
+        },
+        "Total Calories": 750,
+        "Total Cost": 4.99
+    },
+    {
+        "Date": "2023-10-26",
+        "Time": "21:14:57",
+        "Food Items": {
+            "Maruchan Soy Flavored Ramen": 86
+        },
+        "Total Calories": 370,
+        "Total Cost": 0.63
+    },
+    {
+        "Date": "2023-10-27",
+        "Time": "21:17:33",
+        "Food Items": {
+            "Kroger Graham Crackers": 93
+        },
+        "Total Calories": 390,
+        "Total Cost": 0.69
+    },
+    {
+        "Date": "2023-10-28",
+        "Time": "21:18:00",
+        "Food Items": {
+            "Sunflower Butter Pretzel Bites": 120
+        },
+        "Total Calories": 600,
+        "Total Cost": 1.04
+    },
+    {
+        "Date": "2023-10-29",
+        "Time": "21:51:56",
+        "Food Items": {
+            "Wheat Bread": 100
+        },
+        "Total Calories": 300,
+        "Total Cost": 0.5
+    },
+    {
+        "Date": "2023-10-30",
+        "Time": "21:52:04",
+        "Food Items": {
+            "Peanut Butter": 100
+        },
+        "Total Calories": 594,
+        "Total Cost": 0.99
+    },
+    {
+        "Date": "2023-10-31",
+        "Time": "22:04:36",
+        "Food Items": {
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 430,
+        "Total Cost": 0.72
+    },
+    {
+        "Date": "2023-11-01",
+        "Time": "23:47:41",
+        "Food Items": {
+            "Hersheys Dark Chocolate": 100,
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 892,
+        "Total Cost": 2.3
+    },
+    {
+        "Date": "2023-11-02",
+        "Time": "21:13:43",
+        "Food Items": {
+            "El Monterey Bean & Cheese Burritos": 226,
+            "Ore-Ida Tater Tots": 226
+        },
+        "Total Calories": 742,
+        "Total Cost": 2.74
+    },
+    {
+        "Date": "2023-11-03",
+        "Time": "21:14:31",
+        "Food Items": {
+            "Fried Rice": 510
+        },
+        "Total Calories": 750,
+        "Total Cost": 4.99
+    },
+    {
+        "Date": "2023-11-04",
+        "Time": "21:14:57",
+        "Food Items": {
+            "Maruchan Soy Flavored Ramen": 86
+        },
+        "Total Calories": 370,
+        "Total Cost": 0.63
+    },
+    {
+        "Date": "2023-11-05",
+        "Time": "21:17:33",
+        "Food Items": {
+            "Kroger Graham Crackers": 93
+        },
+        "Total Calories": 390,
+        "Total Cost": 0.69
+    },
+    {
+        "Date": "2023-11-06",
+        "Time": "21:18:00",
+        "Food Items": {
+            "Sunflower Butter Pretzel Bites": 120
+        },
+        "Total Calories": 600,
+        "Total Cost": 1.04
+    },
+    {
+        "Date": "2023-11-07",
+        "Time": "21:51:56",
+        "Food Items": {
+            "Wheat Bread": 100
+        },
+        "Total Calories": 300,
+        "Total Cost": 0.5
+    },
+    {
+        "Date": "2023-11-08",
+        "Time": "21:52:04",
+        "Food Items": {
+            "Peanut Butter": 100
+        },
+        "Total Calories": 594,
+        "Total Cost": 0.99
+    },
+    {
+        "Date": "2023-11-09",
+        "Time": "22:04:36",
+        "Food Items": {
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 430,
+        "Total Cost": 0.72
+    },
+    {
+        "Date": "2023-11-10",
+        "Time": "23:47:41",
+        "Food Items": {
+            "Hersheys Dark Chocolate": 100,
+            "Wheat Bread": 80,
+            "Peanut Butter": 32
+        },
+        "Total Calories": 892,
+        "Total Cost": 2.3
+    },
+    {
+        "Date": "2023-11-11",
+        "Time": "21:13:43",
+        "Food Items": {
+            "El Monterey Bean & Cheese Burritos": 226,
+            "Ore-Ida Tater Tots": 226
+        },
+        "Total Calories": 742,
+        "Total Cost": 2.74
+    },
+    {
+        "Date": "2023-11-12",
+        "Time": "21:14:31",
+        "Food Items": {
+            "Fried Rice": 510
+        },
+        "Total Calories": 750,
+        "Total Cost": 4.99
+    },
+    {
+        "Date": "2023-11-13",
+        "Time": "21:14:57",
+        "Food Items": {
+            "Maruchan Soy Flavored Ramen": 86
+        },
+        "Total Calories": 370,
+        "Total Cost": 0.63
+    },
+    {
+        "Date": "2023-11-14",
+        "Time": "21:17:33",
+        "Food Items": {
+            "Kroger Graham Crackers": 93
+        },
+        "Total Calories": 390,
+        "Total Cost": 0.69
+    },
+    {
+        "Date": "2023-11-15",
+        "Time": "21:18:00",
+        "Food Items": {
+            "Sunflower Butter Pretzel Bites": 120
+        },
+        "Total Calories": 600,
+        "Total Cost": 1.04
+    },
+    {
+        "Date": "2023-11-16",
+        "Time": "21:19:48",
+        "Food Items": {
+            "Ore-Ida Tater Tots": 400
+        },
+        "Total Calories": 605,
+        "Total Cost": 2.42
     }
 ]

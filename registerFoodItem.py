@@ -5,10 +5,10 @@ import json
 def register_food_item():
     # Prompt for food item details
     name = input("Enter Food Item name: ")
-    calories = input("Enter calories per serving: ")
-    grams_per_serving = input("Enter grams/serving: ")
-    net_weight = input("Enter food item net weight: ")
-    cost = input("Enter food item cost: ")
+    calories = input("Enter calories per serving (ex. 200): ")
+    grams_per_serving = input("Enter grams per serving (ex. 30): ")
+    net_weight = input("Enter food item net weight in grams (ex. 907): ")
+    cost = input("Enter food item cost in dollars (ex. 4.99): ")
 
     # Create a dictionary for the food item
     food_item = {

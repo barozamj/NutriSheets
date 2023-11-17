@@ -12,5 +12,61 @@
         "grams_per_serving": 32.0,
         "net_weight": 454.0,
         "cost": 4.49
+    },
+    {
+        "name": "Hersheys Dark Chocolate",
+        "calories": 120,
+        "grams_per_serving": 26.0,
+        "net_weight": 208.0,
+        "cost": 3.29
+    },
+    {
+        "name": "Fried Rice",
+        "calories": 250,
+        "grams_per_serving": 170.0,
+        "net_weight": 510.0,
+        "cost": 4.99
+    },
+    {
+        "name": "Ore-Ida Tater Tots",
+        "calories": 130,
+        "grams_per_serving": 86.0,
+        "net_weight": 907.0,
+        "cost": 5.49
+    },
+    {
+        "name": "El Monterey Bean & Cheese Burritos",
+        "calories": 200,
+        "grams_per_serving": 113.0,
+        "net_weight": 907.0,
+        "cost": 5.49
+    },
+    {
+        "name": "Sunflower Butter Pretzel Bites",
+        "calories": 150,
+        "grams_per_serving": 30.0,
+        "net_weight": 690.0,
+        "cost": 5.99
+    },
+    {
+        "name": "Dark Chocolate Covered Almonds",
+        "calories": 160,
+        "grams_per_serving": 30.0,
+        "net_weight": 360.0,
+        "cost": 6.99
+    },
+    {
+        "name": "Maruchan Soy Flavored Ramen",
+        "calories": 370,
+        "grams_per_serving": 86.0,
+        "net_weight": 516.0,
+        "cost": 3.79
+    },
+    {
+        "name": "Kroger Graham Crackers",
+        "calories": 130,
+        "grams_per_serving": 31.0,
+        "net_weight": 403.0,
+        "cost": 2.99
     }
 ]

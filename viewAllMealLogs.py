@@ -1,8 +1,8 @@
-# viewMealHistory.py
+# viewAllMealLogs.py
 
 import json
 
-def view_meal_history():
+def view_all_meal_logs():
     #open meal_logs.json if it exists
     try:
         with open("meal_logs.json", "r") as file:
@@ -17,4 +17,4 @@ def view_meal_history():
         print(f"{meal_log['Date']} {meal_log['Time']}, {meal_log['Total Calories']} calories, ${meal_log['Total Cost']:0.2f}, {food_items}")
 
 if __name__ == "__main__":
-    view_meal_history()
+    view_all_meal_logs()
