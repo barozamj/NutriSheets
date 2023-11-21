@@ -1,5 +1,3 @@
-# NutriSheets
- a program for users to log meals for nutritional records and calculations
 
 # Communication Contract with partner
 1. Communication will primarily occur via Discord messages. 
