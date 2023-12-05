@@ -21,6 +21,9 @@ def view_all_meal_logs():
     # call viewAllMealLogs.py using python subprocess
     subprocess.run([sys.executable, "viewAllMealLogs.py"], check=True)
 
+def update_or_delete_food_item():
+    subprocess.run([sys.executable, "updateOrDeleteFoodItem.py"], check=True)
+
 def view_calendar_summary():
     # Prompt the user for start and end dates
     start_date = input("Enter the start date (YYYY-MM-DD): ")
@@ -54,9 +57,10 @@ def main_menu():
         print("3. Log a Meal")
         print("4. View All Meal Logs")
         print("5. View Calendar Summary")
-        print("6. Quit Program")
+        print("6. Update or Delete Food Item")
+        print("7. Quit Program")
 
-        choice = input("Please choose an option (1-6): ")
+        choice = input("Please choose an option (1-7): ")
         
         if choice == '1':
             print("You've chosen to register a new food item.\n")
@@ -74,6 +78,8 @@ def main_menu():
             print("You've chosen to view calendar summary.")
             view_calendar_summary()
         elif choice == '6':
+            update_or_delete_food_item()
+        elif choice == '7':
             print("Exiting NutriSheets. Goodbye!")
             break
         else:
