@@ -1,5 +1,6 @@
-#main.py
+#main.py for NutriSheets project
 #Author: Jose Baroza-Martinez
+
 import subprocess
 import sys
 import json
@@ -41,7 +42,7 @@ def view_calendar_summary():
     average_daily_cost = data['average_daily_cost']
 
     # Print the results
-    print(f"From {start_date} to {end_date}:")
+    print(f"\nFrom {start_date} to {end_date}:")
     print(f"Average daily consumed calories: {round(average_daily_calories)}")
     print(f"Average daily food spending: ${average_daily_cost:.2f}")
 
@@ -63,27 +64,28 @@ def main_menu():
         choice = input("Please choose an option (1-7): ")
         
         if choice == '1':
-            print("You've chosen to register a new food item.\n")
+            print("\nYou've chosen to register a new food item.")
             register_food_item()
         elif choice == '2':
-            print("You've chosen to view registered food items.\n")
+            print("\nYou've chosen to view registered food items.")
             view_food_items()
         elif choice == '3':
-            print("You've chosen to log a meal.")
+            print("\nYou've chosen to log a meal.")
             log_meal()
         elif choice == '4':
-            print("You've chosen to view all meal logs.")
+            print("\nYou've chosen to view all meal logs.")
             view_all_meal_logs()
         elif choice == '5':
-            print("You've chosen to view calendar summary.")
+            print("\nYou've chosen to view calendar summary.")
             view_calendar_summary()
         elif choice == '6':
+            print("\nYou've chosen to update or delete a registered food item.")
             update_or_delete_food_item()
         elif choice == '7':
-            print("Exiting NutriSheets. Goodbye!")
+            print("\nExiting NutriSheets. Goodbye!")
             break
         else:
-            print("Invalid choice. Please enter a number between 1 and 6.")
+            print("\nInvalid choice. Please enter a number between 1 and 6.")
 
 if __name__ == "__main__":
     main_menu()
