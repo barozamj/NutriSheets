@@ -27,7 +27,7 @@ def update_or_delete_food_item():
     subprocess.run([sys.executable, "updateOrDeleteFoodItem.py"], check=True)
 
 def view_calendar_summary():
-    # regular expression pattern for YYYY-MM-DD
+    # input validation for YYYY-MM-DD
     date_pattern = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 
     # prompt the user for start and end dates
