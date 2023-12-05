@@ -1,6 +1,7 @@
 #main.py for NutriSheets project
 #Author: Jose Baroza-Martinez
 
+import re
 import subprocess
 import sys
 import json
@@ -26,22 +27,30 @@ def update_or_delete_food_item():
     subprocess.run([sys.executable, "updateOrDeleteFoodItem.py"], check=True)
 
 def view_calendar_summary():
-    # Prompt the user for start and end dates
+    # regular expression pattern for YYYY-MM-DD
+    date_pattern = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+
+    # prompt the user for start and end dates
     start_date = input("Enter the start date (YYYY-MM-DD): ")
     end_date = input("Enter the end date (YYYY-MM-DD): ")
 
-    # Call viewCalendarSummary.py with the start and end dates as arguments
+    # validate date format
+    if not date_pattern.match(start_date) or not date_pattern.match(end_date):
+        print("Input not in valid YYYY-MM-DD format")
+        return  # return to the main page
+
+    # vall viewCalendarSummary.py with the start and end dates as arguments
     result = subprocess.run([sys.executable, "viewCalendarSummary.py", start_date, end_date], capture_output=True, text=True, check=True)
     
-    # Parse the output from viewCalendarSummary.py
+    # parse the output from viewCalendarSummary.py
     output = result.stdout.strip()
-    data = json.loads(output)  # Assuming the output is a JSON string
+    data = json.loads(output)  # assuming the output is a JSON string
 
-    # Extract average_daily_calories and average_daily_cost
+    # extract average_daily_calories and average_daily_cost
     average_daily_calories = data['average_daily_calories']
     average_daily_cost = data['average_daily_cost']
 
-    # Print the results
+    # print the results
     print(f"\nFrom {start_date} to {end_date}:")
     print(f"Average daily consumed calories: {round(average_daily_calories)}")
     print(f"Average daily food spending: ${average_daily_cost:.2f}")
