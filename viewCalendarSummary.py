@@ -54,13 +54,6 @@ def view_calendar_summary(start_date_str, end_date_str):
     # find the first meal_log date equal to or later than start_date
     with open("meal_logs.json") as file:
         data = json.load(file)
-    
-    #####
-    # Here, you will add the code to iterate through the appropriate meal logs in [start_date, end_date] inclusive, 
-    # and get the average daily calories consumed and average daily food spending for the time period
-    # we won't need to worry about a pipeline.json since subprocess communicates between files through stdin/stdout/stderr on the CLI
-    # the skeleton code for that has been taken car of below
-    # #####
 
     # go through every entry in the meal log
     for i in range(0, len(data)):
