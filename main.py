@@ -26,6 +26,10 @@ def view_all_meal_logs():
 def update_or_delete_food_item():
     subprocess.run([sys.executable, "updateOrDeleteFoodItem.py"], check=True)
 
+def how_to_use():
+    # Call howToUse.py using python subprocess
+    subprocess.run([sys.executable, "howToUse.py"], check=True)
+
 def view_calendar_summary():
     # input validation for YYYY-MM-DD
     date_pattern = re.compile(r'^\d{4}-\d{2}-\d{2}$')
@@ -56,9 +60,9 @@ def view_calendar_summary():
     print(f"Average daily food spending: ${average_daily_cost:.2f}")
 
 def main_menu():
-    print("\nWelcome to NutriSheets!")
+    print("\nWelcome to NutriSheets! Version 1.0.2")
     print("This program will allow you to register food items, log meals, and view your meal history and nutritional intake.")
-    print("If you are a new user, you will need to register a food item before you can log a meal with that food item.")
+    print("Go to 'How to Use Program' to learn more about the features. NEW FEATURE: Enter meal log without registerring food.")
 
     while True:  # This loop will continue until the user decides to quit
         print("\nEnter a number to go to:")
@@ -68,9 +72,10 @@ def main_menu():
         print("4. View All Meal Logs")
         print("5. View Calendar Summary")
         print("6. Update or Delete Food Item")
-        print("7. Quit Program")
+        print("7. How to Use Program")
+        print("8. Quit Program")
 
-        choice = input("\nPlease choose an option (1-7): ")
+        choice = input("\nPlease input an integer to choose an option (1-8): ")
         
         if choice == '1':
             print("\nYou've chosen to register a new food item.")
@@ -91,10 +96,13 @@ def main_menu():
             print("\nYou've chosen to update or delete a registered food item.")
             update_or_delete_food_item()
         elif choice == '7':
+            print("\nYou've chosen to learn how to use the program.")
+            how_to_use()
+        elif choice == '8':
             print("\nExiting NutriSheets. Goodbye!")
             break
         else:
-            print("\nInvalid choice. Please enter a number between 1 and 6.")
+            print("\nInvalid choice.")
 
 if __name__ == "__main__":
     main_menu()

@@ -11,18 +11,30 @@ def load_food_items():
     except FileNotFoundError:
         print("Food items file not found. Please register some items first.")
         return None
-    
-#this function will be called from main.py to log a meal
+
+# function to log a custom food item
+def log_custom_food_item(meal_log):
+    name = input("Enter Food Item name: ")
+    calories = int(input("Enter calories per serving: "))
+    grams = int(input("Enter grams of the food item you will log: "))
+    cost = float(input("Enter cost of the food item: "))
+
+    # Add the custom food item to the meal log
+    meal_log['Food Items'][name] = grams
+    meal_log['Total Calories'] += calories
+    meal_log['Total Cost'] += cost
+
+# this function will be called from main.py to log a meal
 def log_meal():
     food_items = load_food_items()
-    # If no food items are loaded, exit the function
+    # if no food items are loaded, return
     if food_items is None:
         return
 
     # initialize dict to hold meal log details
     meal_log = {
         'Date': str(datetime.now().date()),
-        'Time': str(datetime.now().time().replace(microsecond=0)), #no microseconds
+        'Time': str(datetime.now().time().replace(microsecond=0)),
         'Food Items': {},
         'Total Calories': 0,
         'Total Cost': 0.0
@@ -30,58 +42,57 @@ def log_meal():
 
     # loop to allow user to select food items and log them
     while True:
-        print("\n0. Press 0 to cancel/go back")
-        # display all available food items to the user
+        print("\n0. Press 0 to cancel/return to main menu")
         for index, item in enumerate(food_items, start=1):
             print(f"{index}. {item['name']}")
-        # input from the user to select a food item
-        choice = input("Enter the number of the food item you wish to log or press 0 to cancel/go back: ")
+        print(f"{len(food_items) + 1}. Enter a custom food item")
+
+        choice = input("Choose a food item to log or enter a custom item: ")
         if choice == '0':
-            break   # Exit the loop if the user wishes to cancel
-        
-        # attempt to parse the selected food item and log the grams
+            break
+
+        #select item and enter amount, then add to total
         try:
             item_index = int(choice) - 1
-            # Check if the selected index is valid
             if 0 <= item_index < len(food_items):
                 selected_item = food_items[item_index]
-                # Ask the user for the amount in grams to log
-                grams = int(input(f"How many grams of {selected_item['name']} will you log? (1 serving is {selected_item['grams_per_serving']} grams) Enter an integer: "))
-                # Add the logged item to the meal log
+                grams = int(input(f"How many grams of {selected_item['name']} will you log? Enter an integer: "))
                 meal_log['Food Items'][selected_item['name']] = grams
-                # Calculate and add to the total calories and cost
                 meal_log['Total Calories'] += round((grams / selected_item['grams_per_serving']) * selected_item['calories'])
                 meal_log['Total Cost'] += round((grams / selected_item['net_weight']) * selected_item['cost'], 2)
-                print(f"Logged {grams} grams of {selected_item['name']}.\n")
+            elif item_index == len(food_items):  # custom food item entry
+                log_custom_food_item(meal_log)
             else:
                 print("Invalid selection.")
                 continue
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
-        
-        # allow the user to either continue logging items or submit the meal log
-        next_action = input("1. Continue logging items for this meal.\n2. Submit meal log.\nEnter your choice as an integer: ")
+
+        # prompt user if they would like to keep logging or submit meal log
+        next_action = input("0. Cancel and return to main menu.\n"
+                            "1. Continue logging items.\n"
+                            "2. Submit meal log.\n"
+                            "Enter your choice: ")
         if next_action == '2':
             break
+        elif next_action == '0':
+            return  # return to main menu without logging any item
 
-    # add the meal log to the meal_logs.json file if any items were logged
+    # only if open the json file if there is something to log
     if meal_log['Food Items']:
-        # load existing meal logs or initialize an empty list
         try:
             with open("meal_logs.json", "r") as file:
                 meal_logs = json.load(file)
         except (FileNotFoundError, json.JSONDecodeError):
             meal_logs = []
 
-        # Append the new meal log to the meal logs list
+        #add users meal log
         meal_logs.append(meal_log)
-
-        # Write the updated meal logs back to the file
         with open("meal_logs.json", "w") as file:
             json.dump(meal_logs, file, indent=4)
 
-        #print result to user
+        #show th user what they have inputted as meal log
         print("\nMeal logged!")
         print(f"Date: {meal_log['Date']}")
         print(f"Time: {meal_log['Time']}")
