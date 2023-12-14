@@ -3,7 +3,7 @@
 import json
 
 def register_food_item():
-    # Prompt for food item details
+    # prompt for food item details
     name = input("Enter Food Item name: ")
     calories = input("Enter calories per serving (ex. 200): ")
     grams_per_serving = input("Enter grams per serving (ex. 30): ")
