@@ -70,7 +70,7 @@ def main_menu():
         print("6. Update or Delete Food Item")
         print("7. Quit Program")
 
-        choice = input("Please choose an option (1-7): ")
+        choice = input("\nPlease choose an option (1-7): ")
         
         if choice == '1':
             print("\nYou've chosen to register a new food item.")
